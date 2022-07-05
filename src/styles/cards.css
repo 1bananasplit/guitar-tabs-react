@@ -1,0 +1,38 @@
+.cards{
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background: whitesmoke
+}
+.card{
+    text-decoration: none;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    border: 3px solid crimson;
+    border-radius: 10px;
+    color: floralwhite;
+    background: rgb(131,58,180);
+    background: linear-gradient(128deg, rgba(131,58,180,1) 0%, rgba(21,69,98,1) 32%, rgba(122,29,253,1) 100%, rgba(252,176,69,1) 100%); 
+}
+img{
+    width: 290px;
+    height: 160px; 
+    border-radius: 10px;
+}
+span{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 70px;
+}
