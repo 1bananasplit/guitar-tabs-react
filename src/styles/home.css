@@ -6,13 +6,15 @@
     align-items: center;
     justify-content: center;
 }
-.add{
-    font-size: 50px;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
+.container{
+    height: 80vh;
+    width: 80vw;
+    background-color: aliceblue;
     display: flex;
-    justify-content: center;
     align-items: center;
-    cursor: pointer;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 15px;
+    overflow-y: scroll;
 }

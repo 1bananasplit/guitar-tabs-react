@@ -1,4 +1,5 @@
-export const cardsList =[
+export const cardsList =
+[
         {
         authors: 'Imagine Dragons',
         nom: 'Enemy',
